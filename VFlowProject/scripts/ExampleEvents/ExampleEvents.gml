@@ -35,6 +35,7 @@ function AddTextbox(_text)
     {
         if(instance_exists(obj_textbox))
         {
+			// Check if the text is done being displayed and check for mouse input to advance
             if(obj_textbox.TextComplete() && mouse_check_button_pressed(mb_left))
             {
                 CUTSCENE_NEXT_EVENT
@@ -76,11 +77,14 @@ function AddChoice(_choiceText1,_choiceEvent1,_choiceText2,_choiceEvent2)
 		// Wait for choice response
 		if(instance_exists(obj_choice))
 		{
+			// Check if an option has been selected
 			if(obj_choice.HasSelected)
 			{
+				// Get the corresponding event
 				var nextEvent = argument[(obj_choice.SelectedIndex*2)+1];
 				with(obj_choice){instance_destroy()}
 				
+				// Continue if noone, go to event if not noone
 				if(nextEvent == noone)
 				{
 					CUTSCENE_NEXT_EVENT;
@@ -95,6 +99,8 @@ function AddChoice(_choiceText1,_choiceEvent1,_choiceText2,_choiceEvent2)
 	}
 }
 
+// Simple example of running a basic function in a cutscene
+// You could also create a universal one that takes a function as an argument
 function CutsceneCloseGame()
 {
 	CUTSCENE_EVENT_DEFINITION
