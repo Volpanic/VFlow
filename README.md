@@ -1,4 +1,8 @@
-# VFlow
+<p align="center">
+  <img  style="height: 200px;" src="https://github.com/Volpanic/VFlow/blob/main/img/Logo.png?raw=true" alt="VFlow Logo"/>
+</p>
+
+# VFlow 
 Scriptable cutscene system for GameMaker
 
 ## Installation
