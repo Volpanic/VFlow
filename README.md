@@ -13,10 +13,10 @@ You can choose to import the VFlowExample for a quick demonstration of how the s
 
 ## Usage
 
-##### Setup
+### Setup
 Place the ***obj_vflow_cutscene_manager*** in the starting room of your game, The object is persistent so it only needs to be placed once.
 
-##### Defining Cutscenes
+### Defining Cutscenes
 To start defining a cutscene call ***StartCutsceneDefinition*** then call all the cutscene events in the definition and call ***EndCutsceneDefinition*** It will return the defined cutscene struct store this in a varaible and use the RunCutscene() function to start the cutscene.
 
 *Here's an example-*
@@ -33,7 +33,7 @@ var cutscene = EndCutsceneDefinition();
 RunCutscene(cutscene); 
 ```
 
-##### Cutscene Events
+### Cutscene Events
 VFlow is just the cutscene system, It comes with no preloaded events (Except for in VFlowExample)
 
 VFlow events are functions that call the ***CUTSCENE_EVENT_DEFINITION*** macro at the start of the event, They also need to call the ***CUTSCENE_NEXT_EVENT*** macro to let the cutscene system know to move to the next event.
@@ -71,7 +71,7 @@ function Wait(_duration)
 }
 ```
 
-##### Complete Example of Definition
+### Complete Example of Definition
 Here's an example of a cutscene defintion from the game I'm working on, **Keep in mind the events called internally are not included with the project,** you have to create the events suited to your project.
 ```gml
 StartCutsceneDefinition();
