@@ -95,8 +95,8 @@ If you like this project and want to support me, the biggest thing you can do ri
 [Greenhouse: Schism](https://store.steampowered.com/app/3496980/Greenhouse_Schism/)
 
 Also check out-
-[My Youtube](https://www.youtube.com/@Volpanic)
-[My Bluesky](https://bsky.app/profile/volpanic.bsky.social)
+[My Youtube](https://www.youtube.com/@Volpanic),
+[My Bluesky](https://bsky.app/profile/volpanic.bsky.social),
 [My Other Youtube for music stuff](https://www.youtube.com/@ClamShandy)
 
 Thanks for checking out this project!
