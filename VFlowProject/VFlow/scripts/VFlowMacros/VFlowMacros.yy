@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"VFlowMacros",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"VFlowMacros",
+  "parent":{
+    "name":"VFlow",
+    "path":"folders/VFlow.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
