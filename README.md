@@ -78,14 +78,14 @@ StartCutsceneDefinition();
 
 FreezePlayer();
 CutsceneHealPlayer();
-AddDialouge("A glimmer or Lim's magic shines within the crystal ball.");
-AddDialouge("Would you like to save?");
+AddDialogue("A glimmer or Lim's magic shines within the crystal ball.");
+AddDialogue("Would you like to save?");
 Choice("Yes",noone,"No",SaveNoEvent);
-CloseDialouge();
+CloseDialogue();
 CutsceneSaveGame();
 PlaySaveEffect();
 Wait(30);
-AddDialouge("Progress has been saved.");
+AddDialogue("Progress has been saved.");
 UnfreezePlayer();
 
 SaveCutscene = EndCutsceneDefinition();
